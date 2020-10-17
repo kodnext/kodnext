@@ -7,13 +7,28 @@
 <li>Kodable can ease the life of a programmer. If programmers get choice of writing their own syntexes.</li>
 <li>Kodable can provide same syntex for various programming languages.</li>
 </ul>
-<h2>Kodable Transpiler Research Notes</h2>
+<h2>Things to note!</h2>
 <ul>
 <li>Regular expressions won't work, Need to implement Parser.</li>
 <li>Babel uses Abstract syntex trees.</li>
+<li>First phase of compiler construction in lexical analyzer.&nbsp;</li>
+<li><strong>FLEX (fast lexical analyzer generator)</strong>&nbsp;is a tool/computer program for generating lexical analyzers (scanners or lexers) written by Vern Paxson in C around 1987.&nbsp;<a href="https://www.geeksforgeeks.org/flex-fast-lexical-analyzer-generator/">flex article jeeks for jeeks</a>.</li>
+<li>PLY is yet another implementation of lex and yacc for Python. Some notable features include the fact that its implemented entirely in Python and it uses LALR(1) parsing which is efficient and well suited for larger grammars.&nbsp;<a href="https://pypi.org/project/ply/">link to pip package</a>.</li>
+</ul>
+<h2>Steps for implementation.</h2>
+<ul>
+<li>Decide on implementation technologies.
+<ol>
+<li>language</li>
+<li>tool</li>
+<li>library</li>
+<li>framework</li>
+</ol>
+</li>
+<li>Implment a lexical analyzer in the decided tool</li>
+<li>decide on source and target language.</li>
 </ul>
 <h2>Reading material</h2>
 <ul>
-<li>https://www.cs.bham.ac.uk/~hxt/2013/c-programming-language/trees-in-cplusplus.pdf</li>
-  <li>http://www.dalkescientific.com/writings/NBN/parsing_with_ply.html</li>
+<li><a href="http://www.dalkescientific.com/writings/NBN/parsing_with_ply.html">Constructing a parser in Python</a></li>
 </ul>
